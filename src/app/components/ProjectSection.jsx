@@ -24,7 +24,7 @@ const projectsData = [
     title: "Portfolio",
     description:
       "I have created this website to showcase some of my highlighted works and to gain experience with Next.js",
-    image: "/images/projects/icelandTip.png",
+    image: "/images/projects/portimg.png",
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -33,7 +33,7 @@ const projectsData = [
     title: "Sign Language Detection",
     description:
       "This mobile application was created as a part of our 4 member group mobile devlopment course ",
-    image: "/images/projects/imadimg.jpg",
+    image: "/images/projects/sasl.png",
     gitUrl: "https://github.com/Prashantsgh/Sign-Language-Detection",
     previewUrl: "/",
   },
@@ -41,9 +41,8 @@ const projectsData = [
 
 const ProjectSection = () => {
   return (
-    <div >
+    <div>
       <h1
-        
         className=" text-center mb-8 text-3xl sm:text-3xl lg:text-5xl font-extrabold
                 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-pink-800"
       >
