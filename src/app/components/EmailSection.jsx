@@ -48,37 +48,56 @@ const EmailSection = () => {
         </div>
       </div>
       <div>
-        <form className="flex flex-col ">
+        <form
+          action="https://api.web3forms.com/submit"
+          method="POST"
+          className="flex flex-col "
+        >
+          <input
+            type="hidden"
+            name="access_key"
+            value="eb38c88a-2293-4e5b-a265-be3496abbf20"
+          />
+          <input
+            type="hidden"
+            name="subject"
+            value="(IMP) Portfolio connection for Kaustubh"
+          />
+
+          <div className="mb-6">
+            <label
+              htmlFor="name"
+              className="text-white block mb-2 text-sm font-medium"
+            >
+              Name
+            </label>
+            <input
+              type="text"
+              id="subject"
+              name="name"
+              required
+              className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-300 text-sm rounded-lg block w-full p-2.5 focus:border-[#fff]"
+              placeholder="John"
+            />
+          </div>
+
           <div className="mb-6">
             <label
               htmlFor="email"
               className="text-white block mb-2 text-sm font-medium"
             >
-              Your email
+              Email
             </label>
             <input
               type="email"
               id="email"
+              name="email"
               required
-              className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5 focus:border-[#fff]"
+              className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-300 text-sm rounded-lg block w-full p-2.5 focus:border-[#fff]"
               placeholder="johndoe@gmail.com"
             />
           </div>
-          <div className="mb-6">
-            <label
-              htmlFor="subject"
-              className="text-white block mb-2 text-sm font-medium"
-            >
-              Subject
-            </label>
-            <input
-              type="text"
-              id="subject"
-              required
-              className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5 focus:border-[#fff]"
-              placeholder="Say Hi !"
-            />
-          </div>
+
           <div className="mb-6">
             <label
               htmlFor="message"
@@ -90,7 +109,7 @@ const EmailSection = () => {
               name="message"
               id="message"
               rows="5"
-              className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5 mb-2 focus:border-[#fff]"
+              className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-300 text-sm rounded-lg block w-full p-2.5 mb-2 focus:border-[#fff]"
               placeholder="Leave your message here"
             />
             <button
