@@ -29,11 +29,11 @@ const Navbar = () => {
           href={"/"}
           className="text-3xl md:text-5xl text-white font-semibold"
         ></Link>
-        <div className="mobile-menu block md:hidden">
+        <div className="mobile-menu block md:hidden hover:scale-105 active:scale-100">
           {!navbarOpen ? (
             <button
               onClick={() => setNavbarOpen(true)}
-              className="flex items-center px-2 py-2 rounded border border-slate-200 text-slate-200 hover:text-white hover:border-white"
+              className="flex items-center px-2 py-2 rounded border border-slate-200 text-slate-200 hover:text-white hover:border-white "
             >
               <Bars3Icon className="h-5 w-5" />
             </button>
@@ -49,7 +49,7 @@ const Navbar = () => {
         <div className="menu hidden md:block md:w-auto" id="navbar">
           <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
             {navLinks.map((link, index) => (
-              <li key={index} className="hover:scale-105 active:scale-100">
+              <li key={index} >
                 <NavLink href={link.path} title={link.title} />
               </li>
             ))}
