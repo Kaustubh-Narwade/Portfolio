@@ -20,28 +20,28 @@ const EmailSection = () => {
           out to me anytime. Whether you have inquiries or simply want to drop a
           greeting, I'll make every effort to respond promptly.
         </p>
-        <div className="socials flex flex-row justify-evenly md:justify-normal">
+        <div className="socials flex flex-row justify-evenly md:justify-center lg:mr-64">
           <Link
             href="https://github.com/Kaustubh-Narwade"
-            className="h-10 w-20 hover:scale-125 active:scale-105 duration-200"
+            className="h-15 w-15 md:h-20 md:w-20 hover:scale-125 active:scale-105 duration-200"
           >
             <Image src={GithubIcon} alt="GitHub Icon" />
           </Link>
           <Link
             href="https://www.linkedin.com/in/kaustubh-narwade-32b21b245/"
-            className="h-20 w-20 hover:scale-125 active:scale-105 duration-200"
+            className="h-15 w-15 md:h-20 md:w-20 hover:scale-125 active:scale-105 duration-200"
           >
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
           <Link
             href="https://twitter.com/Kaustubh1817"
-            className="h-20 w-20 hover:scale-125 active:scale-105 duration-200"
+            className="h-15 w-15 md:h-20 md:w-20 hover:scale-125 active:scale-105 duration-200"
           >
             <Image src={TwitterIcon} alt="Twitter Icon" />
           </Link>
           <Link
-            href="https://www.instagram.com/"
-            className="h-20 w-20 hover:scale-125 active:scale-105 duration-200"
+            href="https://www.instagram.com/kaustub_narwade?utm_source=qr&igsh=YWg5ZDM2bW1qaXdu"
+            className="h-15 w-15 md:h-20 md:w-20 hover:scale-125 active:scale-105 duration-200"
           >
             <Image src={InstaIcon} alt="insta Icon" />
           </Link>
