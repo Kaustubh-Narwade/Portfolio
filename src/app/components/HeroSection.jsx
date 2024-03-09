@@ -39,12 +39,12 @@ const HeroSection = () => {
             <br />I am a final year undergrad student at The LNMIIT, pursuing my
             B.Tech degree in Computer Science Engineering (CSE)
           </p>
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center focus:scale-110 hover:scale-110 active:scale-105 duration-200">
             {/* <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 mr-4 bg-white hover:bg-slate-200 text-white">
               Hire me
             </button> */}
             <a
-              className=" flex items-center justify-center w-full sm:w-fit rounded-full text-white mt-8 cursor-pointer bg-[#121212] scale-105 px-5 py-2 border-2 border-[#ca61ca] font-semibold focus:scale-110 hover:scale-110 active:scale-105 gap-3 duration-200"
+              className=" flex items-center justify-center w-full sm:w-fit rounded-full text-white mt-8 cursor-pointer bg-[#121212] scale-105 px-5 py-2 border-2 border-[#ca61ca] font-semibold  gap-3 "
               href="/Kaustubh-cv.pdf"
               download
             >

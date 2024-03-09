@@ -8,7 +8,7 @@ const projectsData = [
       "It is responsive a full stack blogging website for writers and readers",
     image: "/images/projects/blogimg.png",
     gitUrl: "https://github.com/Kaustubh-Narwade/blogapp",
-    previewUrl: "/",
+    previewUrl: "",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const projectsData = [
       "A simple MERN application to chat with your friends and family with authentication and authorization",
     image: "/images/projects/chatifyimg.png",
     gitUrl: "https://github.com/Kaustubh-Narwade/Chatify",
-    previewUrl: "/",
+    previewUrl: "",
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const projectsData = [
       "I have created this website to showcase some of my highlighted works and to gain experience with Next.js",
     image: "/images/projects/portimg.png",
     gitUrl: "https://github.com/Kaustubh-Narwade/Portfolio",
-    previewUrl: "/",
+    previewUrl: "",
   },
   {
     id: 4,
@@ -35,7 +35,7 @@ const projectsData = [
       "This mobile application was created as a part of our 4 member group mobile devlopment course ",
     image: "/images/projects/sasl.png",
     gitUrl: "https://github.com/Prashantsgh/Sign-Language-Detection",
-    previewUrl: "/",
+    previewUrl: "",
   },
 ];
 
