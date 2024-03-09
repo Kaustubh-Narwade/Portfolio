@@ -7,7 +7,7 @@ const projectsData = [
     description:
       "It is responsive a full stack blogging website for writers and readers",
     image: "/images/projects/blogimg.png",
-    gitUrl: "https://github.com/Kaustubh-Narwade/blogapp",
+    gitUrl: "https://github.com/Kaustubh-Narwade/blog",
     previewUrl: "",
   },
   {
@@ -26,7 +26,7 @@ const projectsData = [
       "I have created this website to showcase some of my highlighted works and to gain experience with Next.js",
     image: "/images/projects/portimg.png",
     gitUrl: "https://github.com/Kaustubh-Narwade/Portfolio",
-    previewUrl: "",
+    previewUrl: "https://kaustubhnarwade-sigma.vercel.app",
   },
   {
     id: 4,
