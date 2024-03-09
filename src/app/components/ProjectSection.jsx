@@ -15,7 +15,7 @@ const projectsData = [
     title: "Chatify",
     description:
       "A simple MERN application to chat with your friends and family with authentication and authorization",
-    image: "/images/projects/chatimg.png",
+    image: "/images/projects/chatifyimg.png",
     gitUrl: "https://github.com/Kaustubh-Narwade/Chatify",
     previewUrl: "/",
   },
@@ -25,7 +25,7 @@ const projectsData = [
     description:
       "I have created this website to showcase some of my highlighted works and to gain experience with Next.js",
     image: "/images/projects/portimg.png",
-    gitUrl: "/",
+    gitUrl: "https://github.com/Kaustubh-Narwade/Portfolio",
     previewUrl: "/",
   },
   {
