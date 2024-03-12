@@ -31,7 +31,7 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="   text-base sm:text-lg mb-6 lg:text-xl">
+          <p className=" text-base sm:text-lg mb-6 lg:text-xl text-[#fff] ">
             <br />
             Aspiring to become a software engineer, I am currently engaged in
             MERN stack development, focusing on honing my skills in data
