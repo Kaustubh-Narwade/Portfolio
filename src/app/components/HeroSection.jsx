@@ -45,10 +45,10 @@ const HeroSection = () => {
             </button> */}
             <a
               className=" flex items-center justify-center w-full sm:w-fit rounded-full text-white mt-8 cursor-pointer bg-[#121212] scale-105 px-5 py-2 border-2 border-[#ca61ca] font-semibold  gap-3 "
-              href="/Kaustubh-cv.pdf"
+              href="/kaustubh resume.pdf"
               download
             >
-              Dowload CV <FiDownload />
+              Dowload CV <FiDownload /> 
             </a>
           </div>
         </div>
